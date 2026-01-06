@@ -32,7 +32,6 @@ Credit Card Fraud Detection Dataset (Kaggle)
 Link:  
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-Dataset is stored in the `data/` folder.
 
  🔹 How to Run
 ```bash
