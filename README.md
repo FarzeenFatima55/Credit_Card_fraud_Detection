@@ -1,26 +1,40 @@
-# Credit_Card_fraud_Detection
-Streamlit-based Credit Card Fraud Detection using Machine Learning
-# 🛡️ Credit Card Fraud Detection System
+🛡️ Credit Card Fraud Detection System
 
-This project detects fraudulent credit card transactions using Machine Learning
-and provides an interactive dashboard using Streamlit.
+This project is a Streamlit-based Machine Learning application for detecting
+fraudulent credit card transactions from highly imbalanced data.
 
-## 🔹 Features
-- Handles imbalanced datasets (SMOTE, Oversampling, Undersampling)
+🔹 Features
 - Random Forest Classifier
-- Evaluation Metrics: Accuracy, Precision, Recall, F1-Score, Specificity
-- Confusion Matrix & Feature Importance Visualization
-- Upload custom CSV or use demo data
+- Handles imbalanced data (SMOTE, Oversampling, Undersampling)
+- Train/Test split with stratification
+- Feature scaling without data leakage
+- Evaluation Metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+  - Specificity
+- Confusion Matrix & Feature Importance
+- CSV upload support
+- Synthetic data generation if dataset is missing
 
-## 🔹 Tech Stack
+ 🔹 Tech Stack
 - Python
 - Streamlit
 - Scikit-learn
 - Imbalanced-learn
-- Matplotlib & Seaborn
+- Pandas, NumPy
+- Matplotlib, Seaborn
 
-## 🔹 How to Run
+ 🔹 Dataset
+Credit Card Fraud Detection Dataset (Kaggle)
+
+Link:  
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Dataset is stored in the `data/` folder.
+
+ 🔹 How to Run
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
